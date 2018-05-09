@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 按类分组测试 -->
+
+<suite name = "groupbyclass">
+	<test name = "testgroupbyclass">
+		<groups>
+			<run>
+				<include name = "student"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "pri.study.groupc.GroupByStudent1"></class>
+			<class name = "pri.study.groupc.GroupByStudent2"></class>
+			<class name = "pri.study.groupc.GroupByTeacher"></class>
+		</classes>
+	</test>
+</suite>
