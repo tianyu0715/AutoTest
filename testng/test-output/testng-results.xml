@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
+  <suite name="testsuite" duration-ms="80" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-      <class name="pri.study.first.First">
-        <test-method status="PASS" signature="test7()[pri:0, instance:pri.study.first.First@16905e]" name="test7" is-config="true" duration-ms="16" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:pri.study.first.First@16905e]" name="test5" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:pri.study.first.First@16905e]" name="test3" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:pri.study.first.First@16905e]" name="test1" duration-ms="5" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
+    <test name="login" duration-ms="40" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+      <class name="pri.study.suit.SuitConfig">
+        <test-method status="PASS" signature="test1()[pri:0, instance:pri.study.suit.SuitConfig@2d45ba]" name="test1" is-config="true" duration-ms="1" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:pri.study.first.First@16905e]" name="test3" is-config="true" duration-ms="1" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:pri.study.first.First@16905e]" name="test4" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:pri.study.first.First@16905e]" name="test2" duration-ms="1" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:pri.study.suit.SuitConfig@2d45ba]" name="test2" is-config="true" duration-ms="0" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:pri.study.first.First@16905e]" name="test4" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
+      </class> <!-- pri.study.suit.SuitConfig -->
+      <class name="pri.study.suit.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:pri.study.suit.Login@5ca609]" name="login" duration-ms="6" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- pri.study.suit.Login -->
+    </test> <!-- login -->
+    <test name="pay" duration-ms="6" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+      <class name="pri.study.suit.SuitConfig">
+        <test-method status="PASS" signature="test3()[pri:0, instance:pri.study.suit.SuitConfig@653222]" name="test3" is-config="true" duration-ms="18" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:pri.study.suit.SuitConfig@653222]" name="test1" is-config="true" duration-ms="0" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:pri.study.suit.SuitConfig@653222]" name="test2" is-config="true" duration-ms="1" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:pri.study.suit.SuitConfig@653222]" name="test4" is-config="true" duration-ms="0" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test6()[pri:0, instance:pri.study.first.First@16905e]" name="test6" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
+      </class> <!-- pri.study.suit.SuitConfig -->
+      <class name="pri.study.suit.Pay">
+        <test-method status="PASS" signature="pay()[pri:0, instance:pri.study.suit.Pay@132ec19]" name="pay" duration-ms="2" started-at="2018-05-09T13:14:15Z" finished-at="2018-05-09T13:14:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test8()[pri:0, instance:pri.study.first.First@16905e]" name="test8" is-config="true" duration-ms="0" started-at="2018-05-09T12:24:03Z" finished-at="2018-05-09T12:24:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8 -->
-      </class> <!-- pri.study.first.First -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- pay -->
+      </class> <!-- pri.study.suit.Pay -->
+    </test> <!-- pay -->
+  </suite> <!-- testsuite -->
 </testng-results>
