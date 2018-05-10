@@ -1,0 +1,25 @@
+[
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/tonext"
+    },
+    "redirectTo": "https://www.baidu.com/"
+  },
+  {
+    "description": "重定向到一个自己的网页上",
+    "request": {
+      "uri": "/tonextme"
+    },
+    "redirectTo": "/me"
+  },
+  {
+    "description": "被重定向的网页",
+    "request": {
+      "uri": "/me"
+    },
+    "response": {
+      "text": "重定向成功"
+    }
+  }
+]
