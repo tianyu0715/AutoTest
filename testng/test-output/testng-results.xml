@@ -1,30 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4242" started-at="2018-05-10T05:54:36Z" finished-at="2018-05-10T05:54:40Z">
+  <suite name="Default suite" duration-ms="72" started-at="2018-05-10T13:27:59Z" finished-at="2018-05-10T13:27:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4242" started-at="2018-05-10T05:54:36Z" finished-at="2018-05-10T05:54:40Z">
-      <class name="pri.study.timeout.Timeout">
-        <test-method status="FAIL" signature="testFailed()[pri:0, instance:pri.study.timeout.Timeout@c0edeb]" name="testFailed" duration-ms="2161" started-at="2018-05-10T05:54:36Z" finished-at="2018-05-10T05:54:38Z">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method pri.study.timeout.Timeout.testFailed() didn't finish within the time-out 2000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method pri.study.timeout.Timeout.testFailed() didn't finish within the time-out 2000
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+    <test name="Default test" duration-ms="72" started-at="2018-05-10T13:27:59Z" finished-at="2018-05-10T13:27:59Z">
+      <class name="pri.study.paramterbydata.ByData">
+        <test-method status="PASS" signature="test1(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test1" duration-ms="13" started-at="2018-05-10T13:27:59Z" data-provider="data1" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张三]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFailed -->
-        <test-method status="PASS" signature="testSuccess()[pri:0, instance:pri.study.timeout.Timeout@c0edeb]" name="testSuccess" duration-ms="2004" started-at="2018-05-10T05:54:38Z" finished-at="2018-05-10T05:54:40Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test1" duration-ms="1" started-at="2018-05-10T13:27:59Z" data-provider="data1" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[李四]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccess -->
-      </class> <!-- pri.study.timeout.Timeout -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test2" duration-ms="2" started-at="2018-05-10T13:27:59Z" data-provider="data2" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小王]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test2" duration-ms="2" started-at="2018-05-10T13:27:59Z" data-provider="data2" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小李]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test3" duration-ms="1" started-at="2018-05-10T13:27:59Z" data-provider="data2" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小王媳妇]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test3(java.lang.String, int)[pri:0, instance:pri.study.paramterbydata.ByData@7fa833]" name="test3" duration-ms="2" started-at="2018-05-10T13:27:59Z" data-provider="data2" finished-at="2018-05-10T13:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小李媳妇]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- pri.study.paramterbydata.ByData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
