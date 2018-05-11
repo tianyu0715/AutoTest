@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.httpclient.cookies.GetCookies">
+      <class name="org.httpclient.post.PostTest">
         <methods>
-          <include name="testGetCookies"/>
           <include name="beforetest"/>
+          <include name="testGetCookies"/>
+          <include name="testPostMethod"/>
         </methods>
-      </class> <!-- org.httpclient.cookies.GetCookies -->
+      </class> <!-- org.httpclient.post.PostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

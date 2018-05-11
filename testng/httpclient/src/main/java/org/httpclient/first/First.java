@@ -7,7 +7,6 @@ import org.apache.http.ParseException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.Test;
 
@@ -18,8 +17,8 @@ public class First {
 		String result;
 		HttpGet get = new HttpGet("https://www.baidu.com/");
 //		执行get方法
-//		HttpClient client = new DefaultHttpClient();
-		HttpClient client = HttpClientBuilder.create().build();
+		HttpClient client = new DefaultHttpClient();
+//		HttpClient client = HttpClientBuilder.create().build();
 		
 		HttpResponse response = client.execute(get);
 		

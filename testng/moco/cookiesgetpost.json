@@ -7,10 +7,9 @@
 		},
 		"response": {
 			"cookies": {
-				"login": "true",
-				"token": "srczxcv"
+				"login": "true"
 			},
-			"text": "Congratulations on the success of cookies！！"
+			"text": "Congratulations on the success of cookies"
 		}
 	},
 	{
@@ -42,7 +41,7 @@
 		"response": {
 			"status": "200",
 			"json": {
-				"comments": "success",
+				"comment": "success",
 				"status": "000000"
 			}
 		}
