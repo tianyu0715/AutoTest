@@ -1,20 +1,17 @@
 server:
-	port: 8081
-	
+  port: 8081	
 logging:
-	path: logs
-	file: mylog.log
-	
+  path: logs
+  file: mylog.log	
 spring:
-	application:
-		name: myTest
-	datasource:
-		driver-class-name: com.mysql.jdbc.Driver
-		url: jdbc:mysql://localhost:3306/mydatabase
-		username: root
-		password: 123456
-		
+  application:
+    name: report
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456		
 mybatis:
-	type-aliases-package: org.mybatis.model
-	mapper-locations:
-		- mapper/*	 		
+  type-aliases-package: org.mybatis.org.mybatis.model
+  mapper-locations:
+    - mapper/*	 		

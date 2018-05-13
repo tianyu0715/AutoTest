@@ -17,7 +17,7 @@
 
 <configuration>
     <typeAliases>
-        <package name="org.mybatis.model"/>
+        <package name="org.mybatis.org.mybatis.model"/>
     </typeAliases>
     <mappers>
         <mapper resource="mapper/mysql.xml"/>
