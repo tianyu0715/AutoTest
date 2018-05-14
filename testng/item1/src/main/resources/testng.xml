@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="用户管理系统测试套件">
+	<test name="用户管理系统测试用例">
+		<classes>
+			<class name="org.item1.cases.LoginTest">
+				<methods>
+					<include name="loginTrue"></include>
+					<include name="loginFalse"></include>
+				</methods>
+			</class>
+			<class name="org.item1.cases.AddUserTest">
+				<methods>
+					<include name="addUser"></include>
+				</methods>
+			</class>
+			<class name="org.item1.cases.GetUserInfoTest">
+				<methods>
+					<include name="getUserInfo"></include>
+				</methods>
+			</class>
+			<class name="org.item1.cases.GetUserListTest">
+				<methods>
+					<include name="getUserList"></include>
+				</methods>
+			</class>			
+			<class name="org.item1.cases.UpdateUserInfoTest">
+				<methods>
+					<include name="updateUserInfo"></include>
+					<include name="deleteUser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name = "org.item1.config.FormatReport"/>
+	</listeners>
+</suite>

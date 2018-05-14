@@ -8,16 +8,18 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">72</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">66</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">pri.study.paramterbydata.ByData</td><td><a href="#m0">test1</a></td><td rowspan="2">1525958879520</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m1">test1</a></td></tr><tr class="passedeven"><td><a href="#m2">test2</a></td><td rowspan="2">1525958879523</td><td rowspan="2">2</td></tr><tr class="passedeven"><td><a href="#m3">test2</a></td></tr><tr class="passedeven"><td><a href="#m4">test3</a></td><td rowspan="2">1525958879531</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m5">test3</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">pri.study.report.AssertLog</td><td><a href="#m0">logDemo</a></td><td rowspan="1">1526306131587</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m1">test1</a></td><td rowspan="1">1526306131557</td><td rowspan="1">21</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">pri.study.report.AssertLog</td><td><a href="#m2">test2</a></td><td rowspan="1">1526306131582</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m3">test3</a></td><td rowspan="1">1526306131585</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">pri.study.paramterbydata.ByData#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>李四</td><td>21</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">pri.study.paramterbydata.ByData#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>张三</td><td>20</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">pri.study.paramterbydata.ByData#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>小王</td><td>40</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">pri.study.paramterbydata.ByData#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>小李</td><td>41</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">pri.study.paramterbydata.ByData#test3</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>小王媳妇</td><td>36</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">pri.study.paramterbydata.ByData#test3</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>小李媳妇</td><td>33</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">pri.study.report.AssertLog#logDemo</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">report log output</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: 运行时抛出异常
+	at pri.study.report.AssertLog.logDemo(AssertLog.java:23)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">pri.study.report.AssertLog#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [2] but found [1]
+	at pri.study.report.AssertLog.test1(AssertLog.java:10)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">pri.study.report.AssertLog#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">pri.study.report.AssertLog#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
